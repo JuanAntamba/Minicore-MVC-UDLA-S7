@@ -1,4 +1,5 @@
 venv/
 __pycache__/
-db.sqlite3
+# db.sqlite3  <-- Comentado temporalmente para facilitar la revisión con datos de prueba.
+# Nota: En entornos de producción real, la base de datos local nunca se sube a GitHub por seguridad y persistencia.
 *.pyc

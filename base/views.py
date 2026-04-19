@@ -9,7 +9,7 @@ def vista_nota_necesaria(request):
     alumnos = Alumno.objects.all()
     resultados = []
 
-    # Fechas límite exactas que definimos para los progresos
+    # Fechas límite exactas que defini para los progresos
     p1_inicio, p1_fin = date(2023, 3, 1), date(2023, 4, 15)
     p2_inicio, p2_fin = date(2023, 11, 1), date(2023, 12, 15)
 
