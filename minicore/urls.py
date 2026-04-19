@@ -16,9 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from base import views  # Importamos nuestras vistas
+from base import views 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.vista_nota_necesaria, name='inicio'), # pagina principal
+    
+    #principal (la pantalla de bienvenida)
+    path('', views.inicio, name='inicio'), 
+    
+    #ruta de tu tabla de calificaciones
+    path('resumen/', views.vista_nota_necesaria, name='resumen'), 
 ]

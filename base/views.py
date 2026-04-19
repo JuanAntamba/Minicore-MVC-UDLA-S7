@@ -2,6 +2,9 @@ from django.shortcuts import render
 from .models import Alumno, Nota
 from datetime import date
 
+def inicio(request):
+    return render(request, 'base/index.html')
+
 def vista_nota_necesaria(request):
     alumnos = Alumno.objects.all()
     resultados = []
