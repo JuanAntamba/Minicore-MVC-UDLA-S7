@@ -54,7 +54,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-🌐 Despliegue
+## 🌐 Despliegue
 La aplicación se encuentra disponible en vivo gracias a Render:
 🔗 [Enlace al Proyecto Desplegado](https://minicore-antamba.onrender.com)
 
